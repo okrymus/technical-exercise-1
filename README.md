@@ -7,7 +7,7 @@ Create a component that displays user information as part of the users page.
 
 ## Getting Started
 
-1. Download [Node.js](https://nodejs.org/en/) if you haven't already
+1. Download [Node.js](https://nodejs.org/en/) and any other resources if you haven't already.
 2. Clone this Repository
 2. Run `npm install`
 3. Run `npm run dev`
@@ -16,7 +16,8 @@ Create a component that displays user information as part of the users page.
 ## Requirements
 
 *	The component should use axios.get to retrieve user data from [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
-*	The component should roughly adhere to the [wireframe](https://projects.invisionapp.com/freehand/document/2clpV32jw)
+*	The component should roughly adhere to the [wireframe](https://projects.invisionapp.com/freehand/document/2clpV32jw) 
+** If you do not have a Freehand account, create one or join as a guest.
 * When you are done send us a link to a repository where we can review your work
 
 ## Resources
