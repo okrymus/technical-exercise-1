@@ -17,7 +17,7 @@ Create a component that displays user information as part of the users page.
 
 *	The component should use axios.get to retrieve user data from [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 *	The component should roughly adhere to the [wireframe](https://projects.invisionapp.com/freehand/document/2clpV32jw) 
-  If you do not have a Freehand account, create one or join as a guest.
+* If you do not have a Freehand account, create one or join as a guest.
 * When you are done send us a link to a repository where we can review your work
 
 ## Resources
