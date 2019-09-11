@@ -7,7 +7,8 @@ Create a component that displays user information as part of the users page.
 
 ## Getting Started
 
-1. Clone this Repository
+1. Download [Node.js](https://nodejs.org/en/) if you haven't already
+2. Clone this Repository
 2. Run `npm install`
 3. Run `npm run dev`
 4. Navigate to http://localhost:3000
