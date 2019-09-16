@@ -5,30 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
+  <style type="text/css">
+
+  .outer {
+    width:50%;
+    margin:0 auto;
+    outline:2px solid blue;
+  }
+  .content {
+    line-height:1.0;
+    white-space:pre-wrap;
+    padding:1em;
+	text-align: center;
+  }
+  .panel-body{
+    line-height:1.0;
+	white-space:pre-wrap;
+	text-align: left;
+  }
+  </style>
+  
   <body>
-    <div class="container">
-      <h1>Spill Center Technical Exercise<small></small></h1>
-      <div class="jumbotron">
-        <h1>Welcome To Spill Center</h1>
-        <h4>Axios framework will display users using the GET Request. </h4>
-      </div>
-      <div class="panel panel-primary">
-      
-        <div class="panel-body">
-          <button class="btn btn-primary" onclick="getRequest()">Get User List</button>
-          <button class="btn btn-warning" onclick="clearOutput()">Clear</button>
-          <div class="panel-body" id="getResult"></div>
-        </div>
-      </div>
-      </div>
-      </div>
+  <div class="outer">
+  <div class="content">
+		<h1>Spill Center Technical Exercise<small></small></h1>
+		<h1>Welcome To Spill Center</h1>
+        <h4>Axios framework will display the user list using the Display User List button below. </h4>
+		<h4>Work by Anderson Santana</h4>
+  
+    <button class= "btn btn-primary" onclick="getUsernameRequest()">Display User List</button>
+    <button class="btn btn-warning" onclick="clearOutput()">Clear</button>
+	<div class="panel-body">
+    
+    <div class="panel-body" id="getResult"></div>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="getrequest.js"></script>
+    <script src="getUsername.js"></script>
   </body>
 </html>
